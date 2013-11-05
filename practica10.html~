@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>calculadora</title>
+<script src="practica10.js"></script>
+</head>
+<body>
+<form>
+<label>numero1 </label> <br>
+<input type="text" name="txtNumero" id='n1' maxlength="10" onkeypress="javascript:return validarNro(event)"/>  <br>
+<label>numero2 </label> <br>
+<input type="text" name="txtAgregar"  maxlength="10" id="n2" />  <br></br>
+
+
+	<input type="button" name="boton1" id="btn1" value="+" />
+	<input type="button" name="boton2" id="btn2" value="-" />
+	<input type="button" name="boton3" id="btn3" value="/" />
+	<input type="button" name="boton4" id="btn4" value="*" /><br></br>
+	
+
+<label>Resultado </label> <br>
+<input type="text" name="txtResulado" id="res" />
+
+</form>
+</body>
+
+
+
+</html>
